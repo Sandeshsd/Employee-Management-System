@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+  <param-name>Increament</param-name>
+  <param-value>0.2</param-value>
+  </context-param>
+  
+  <servlet>
+  <servlet-name>abc</servlet-name>
+  <servlet-class>com.employee_management.controller.SaveEmployee</servlet-class>
+  
+  <init-param>
+  <param-name>Frontend_developer</param-name>
+  <param-value>450000</param-value>
+  </init-param>
+  
+   <init-param>
+  <param-name>Backend_developer</param-name>
+  <param-value>550000</param-value>
+  </init-param>
+  
+   <init-param>
+  <param-name>customer_support</param-name>
+  <param-value>350000</param-value>
+  </init-param>
+  
+   <init-param>
+  <param-name>Full_stack_developer</param-name>
+  <param-value>650000</param-value>
+  </init-param>
+  
+   <init-param>
+  <param-name>Technical-support</param-name>
+  <param-value>350000</param-value>
+  </init-param>
+  
+   <init-param>
+  <param-name>Test-engineer</param-name>
+  <param-value>450000</param-value>
+  </init-param>
+  
+ <init-param>
+  <param-name>QA_engineer</param-name>
+  <param-value>400000</param-value>
+  </init-param>  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>abc</servlet-name>
+  <url-pattern>/save</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>
