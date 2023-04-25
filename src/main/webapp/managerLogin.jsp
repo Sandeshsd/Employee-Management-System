@@ -115,7 +115,7 @@ margin-top:10%;
 <input type="email" placeholder=" email" name="managerEmail"><br><br>
 <input type="password" placeholder=" password" name="manegerPassword"><br><br>
 <input class="btn" type="submit" value="Sign in"> 
-<a class="forgot" href="#">Forgot password?</a><br><br>
+<a class="forgot" href="forgotPassword.jsp">Forgot password?</a><br><br>
 <div class="btm">
 <p>Don't have an acoount?</p>
 <a class="signup" href="managerSignup.jsp">Sign up</a>

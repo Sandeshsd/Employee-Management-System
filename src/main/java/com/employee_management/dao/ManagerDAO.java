@@ -30,11 +30,23 @@ public class ManagerDAO {
 	}catch (Exception e) {
 		return null;
 	}
-	
+	}
+	public Manager getManagerById(int managerId) {
+		 return em.find(Manager.class, managerId);
 	}
 	public void updateManager(Manager manager) {
 		et.begin();
 		em.merge(manager);
 		et.commit();
+	}
+	public int resetPassword(String email) {
+		try {
+			Query query=em.createQuery("select m from Manager m where m.managerEmail=?1");
+			query.setParameter(1, email);
+			Manager manager2=(Manager)query.getSingleResult();
+			return manager2.getManagerId();
+		}catch (Exception e) {
+		      return -1;
+		}
 	}
 }
