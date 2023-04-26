@@ -11,11 +11,8 @@
 </head>
 <body>
 <style>
-html{
-overflow: hidden;
-}
 .table{
-margin: 10% 0% 0% 23%;
+margin: 8%;
 }
 .home{
 text-decoration: none;
@@ -29,17 +26,21 @@ margin: 50px;
 font-size: 40px;
 }
 .table th{
+padding:1px 10px;
 background-color: #094a88;
 color: #fff;
 border-top:none ;
-border-bottom:1px solid #ff7200;
 border-radius:4px;
 border-left:2px  solid #fff;
 border-right:none ;
 }
 .table a{
-text-decoration: none;
-color: black;
+text-decoration:none;
+background-color: #094a88;
+color:#fff ;
+border-radius: 4px;
+padding:5px 8px;
+margin: 50px;
 transition:0.5s ease;
 }
 a:hover{
@@ -47,8 +48,6 @@ text-decoration: none;
 background-color: #fff;
 color:#094a88 ;
 border-radius: 5px;
-padding:5px 8px;
-margin:4% ;
 }
 .table td{
 text-align: center;
@@ -67,7 +66,7 @@ text-align: center;
 <div  class="table">  
    <h1>Employee Data</h1>
 
-<table border="" cellpadding="10px" cellspacing="">
+<table  cellpadding="10px" cellspacing="">
   <thead>
       <tr>
          <th>Employee ID</th> 

@@ -33,7 +33,6 @@ public class ForgotPassword extends HttpServlet {
 				
 				req.getRequestDispatcher("managerLogin.jsp").forward(req, resp);
 			}else {
-				boolean res1=true;
 				resp.sendRedirect("managerSignup.jsp");
 			} 
 	}else {

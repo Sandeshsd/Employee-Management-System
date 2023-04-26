@@ -21,7 +21,7 @@ background-attachment: fixed;
 background-color:#fbf2f2e0;
 border:0.5px solid black;
 width:300px;
-height:350px;
+height:400px;
 margin-top:10%;
 margin-left: 42%; 
 padding:30px;

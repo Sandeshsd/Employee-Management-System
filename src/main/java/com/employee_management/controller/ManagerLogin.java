@@ -21,14 +21,12 @@ public class ManagerLogin extends HttpServlet{
 		String password=req.getParameter("managerPassword");
 		  
 		   Manager manager=  new ManagerDAO().managerLogin(email, password);
+		   HttpSession session=req.getSession();
 		   if(manager!=null) {
-			   HttpSession session=req.getSession();
 			   session.setAttribute("manager",manager);
 	        req.getRequestDispatcher("dashboard.jsp").forward(req, resp);
 		 }else {
 			 resp.sendRedirect("managerSignup.jsp");
-		 }
-		   
+		 }	   
 	}
-
 }

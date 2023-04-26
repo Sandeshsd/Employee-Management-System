@@ -11,6 +11,7 @@
 <style>
 
 body{
+position:relative;
 background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,1)),url("a1.jpg");
 background-repeat: no-repeat;
 background-position: centre centre;
@@ -71,7 +72,7 @@ background-color: #fff;
 	
 	if(manager!=null) {
    %>
-   <div >
+   <div class="form">
 <h1>Welcome Manager</h1>
  <h3>You can manage employee here !</h3>
  <div class="btn">

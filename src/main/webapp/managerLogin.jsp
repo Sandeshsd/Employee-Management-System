@@ -51,11 +51,10 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
 }
 .logo2{
-border:0.5px solid black;
 text-decoration:none;
 padding:5px 76px;
-background-color: #f5eeee;
-color: black;
+background-color: #b90a0a;
+color: #fff;
 border-radius: 2px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -113,7 +112,7 @@ margin-top:10%;
 
 <form action="login" method="post">
 <input type="email" placeholder=" email" name="managerEmail"><br><br>
-<input type="password" placeholder=" password" name="manegerPassword"><br><br>
+<input type="password" placeholder=" password" name="managerPassword"><br><br>
 <input class="btn" type="submit" value="Sign in"> 
 <a class="forgot" href="forgotPassword.jsp">Forgot password?</a><br><br>
 <div class="btm">

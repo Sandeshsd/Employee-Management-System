@@ -27,7 +27,7 @@ public class ManagerSignup extends HttpServlet{
 		
 		new ManagerDAO().managerSignUp(manager);
 	   
-		resp.sendRedirect("managerLogin.jsp");
+		req.getRequestDispatcher("managerLogin.jsp").forward(req, resp);
 	}
 
 }
